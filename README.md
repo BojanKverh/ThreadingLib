@@ -1,5 +1,5 @@
 # ThreadingLib
-Split the task into several smaller tasks and use ThreadingLib to use all your processor cores to complete the task in shorter time
+Split the task into several smaller tasks and use ThreadingLib to unleash all your processor cores to complete the task in shorter time
 
 This library is intended to maximize the use of your computer processor(s).
 It is meant to be used in cases, where there is a huge computing task to be done,
