@@ -5,7 +5,7 @@ This library is intended to maximize the use of your computer processor(s).
 It is meant to be used in cases, where there is a huge computing task to be done,
 which can be divided into several smaller tasks that can be processed in parallel.
 This library takes away the management of different threads and waiting for their
-finish before assigning them the next job to process.
+finish before assigning them the next job to process. You can also define dependencies between jobs in cases where some jobs have to be finished before some other job is started.
 
 The processing of the smaller tasks should be implemented in the process method of
 the class derived from abstract class AbstractJob.
