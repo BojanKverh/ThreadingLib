@@ -45,8 +45,7 @@ You can also navigate to src directory and execute:
 
 <code>
   qmake
-</code>
-<code>
+  
   make
 </code>
 
