@@ -40,7 +40,7 @@ To compile it, just execute:
 <code>make all</code>
 
 
-in the command line in the root directory. The library will be compiled in the src directory. For successful build, Qt5 libraries are needed.
+in the command line in the root directory. The library will be compiled in the <i>src</i> directory. For successful build, Qt5 libraries are needed.
 
 You can also navigate to src directory and execute:
 
