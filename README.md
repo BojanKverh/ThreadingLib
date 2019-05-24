@@ -32,7 +32,8 @@ classes, which handle the processing of number of smaller tasks:
   method or too many errors occured during one session.
 
 <h2>Compiling</h2>
-This library is based on Qt's multithreading capabilities, so it should be crossplatform
+This library is based on Qt's multithreading capabilities, so it should be crossplatform.
+
 To compile it, just execute:
 
 
