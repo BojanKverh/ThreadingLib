@@ -12,13 +12,13 @@ the class derived from abstract class AbstractJob.
 
 In this library there are two
 classes, which handle the processing of number of smaller tasks:
-- class JobManager: if all the smaller tasks can be created at once, this is the
+- class <b>JobManager</b>: if all the smaller tasks can be created at once, this is the
   preferred class to use. Create every small task needed to complete the
   computing and add it to JobManager via
   appendJob() method. Then call JobManager::start() method and JobManager will take
   care of the rest. When all the tasks are processed, JobManager will emit
   signal signalFinished.
-- class AbstractSessionManager: if creating all the smaller tasks at once exceeds
+- class <b>AbstractSessionManager</b>: if creating all the smaller tasks at once exceeds
   your system memory or some other system resource, you have to divide tasks into 
   sessions. AbstractSessionManager is an abstract class, which has to be derived and its
   methods sessionCount() and initNextSession() have to be implemented. Method
