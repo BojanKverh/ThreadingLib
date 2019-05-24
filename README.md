@@ -31,6 +31,8 @@ classes, which handle the processing of number of smaller tasks:
   the sessions are completed or the processing is stopped by calling the stop()
   method or too many errors occured during one session.
 
+The library comes with a few examples of usage (<i>examples/qsort</i> and <i>examples/imageProcessing</i>), unit tests (<i>tests/UnitTests</i>) and extensive class documentation (<i>doc/html</i>).
+
 <h2>Compiling</h2>
 This library is based on Qt's multithreading capabilities, so it should be crossplatform.
 
