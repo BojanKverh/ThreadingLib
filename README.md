@@ -41,6 +41,14 @@ To compile it, just execute:
 
 in the command line in the root directory. The library will be compiled in the src directory. For successful build, Qt5 libraries are needed.
 
+You can also navigate to src directory and execute:
+
+<code>
+  qmake
+  make
+</code>
+
+
 <h2>Finding it useful?</h2>
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CY962QPSSHPHY)
