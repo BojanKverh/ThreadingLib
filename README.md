@@ -42,7 +42,7 @@ To compile it, just execute:
 
 in the command line in the root directory. The library will be compiled in the <i>src</i> directory. For successful build, Qt5 libraries are needed.
 
-You can also navigate to src directory and execute:
+You can also navigate to <i>src</i> directory and execute:
 
 <code>
   qmake
