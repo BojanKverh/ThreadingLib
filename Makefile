@@ -20,6 +20,7 @@ define cleanImages
 endef
 
 all:
+	doxygen doc/res/Doxyfile
 	$(call genmake)
 	$(call submake, $@)
 	
