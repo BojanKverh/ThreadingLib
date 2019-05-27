@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['thread_5findex',['THREAD_INDEX',['../jobmanager_8cpp.html#ab5a1530c553483972ae0df347fe3f358',1,'jobmanager.cpp']]],
-  ['threadinglibshared_5fexport',['THREADINGLIBSHARED_EXPORT',['../threadinglib__global_8h.html#a7fb7a64e22427a1b6e62ee0117cf97ed',1,'threadinglib_global.h']]]
+  ['check_5fjob_5fstop',['CHECK_JOB_STOP',['../abstractjob_8h.html#a0b1788b145fd0dbef10f9cddb3e8cd63',1,'abstractjob.h']]]
 ];

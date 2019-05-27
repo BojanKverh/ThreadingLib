@@ -1,26 +1,5 @@
 var searchData=
 [
-  ['serror',['sError',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989dab3271524b7e3635cc9cfb57e3fd93ace',1,'thr::AbstractSessionManager']]],
-  ['sessioncount',['sessionCount',['../classthr_1_1AbstractSessionManager.html#a38c93b97a4d805bf2defd8c76f610495',1,'thr::AbstractSessionManager']]],
-  ['setallowederrors',['setAllowedErrors',['../classthr_1_1JobManager.html#a06757f98fbbad8f4e0991d4092faa066',1,'thr::JobManager']]],
-  ['setname',['setName',['../classthr_1_1AbstractJob.html#af42361563ee33b9dee15da44ed6554c2',1,'thr::AbstractJob']]],
-  ['setprogressreporttimeout',['setProgressReportTimeout',['../classthr_1_1JobManager.html#a81c8195810b33739864252df14808321',1,'thr::JobManager']]],
-  ['setreportjobfinish',['setReportJobFinish',['../classthr_1_1JobManager.html#abc9664e5414c66af768a7fee88fb6db1',1,'thr::JobManager']]],
-  ['setsessiontimeout',['setSessionTimeout',['../classthr_1_1AbstractSessionManager.html#a790b04d4df40ea784a8d34a80edf21b0',1,'thr::AbstractSessionManager']]],
-  ['setthreads',['setThreads',['../classthr_1_1JobManager.html#af38258a732eb44ad040d0a3e82bef38f',1,'thr::JobManager']]],
-  ['sfinished',['sFinished',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989da8a12a5238e9edd3e48dd606cd0267d41',1,'thr::AbstractSessionManager']]],
-  ['signalerror',['signalError',['../classthr_1_1AbstractJob.html#a6f79c746da93ee04b6e6f2518f4d9926',1,'thr::AbstractJob::signalError()'],['../classthr_1_1AbstractSessionManager.html#a2a12ee1b8a3c67e8df8d7e0db8b86d64',1,'thr::AbstractSessionManager::signalError()'],['../classthr_1_1JobManager.html#a272bbeacc3949d7ed20bf3548b897c61',1,'thr::JobManager::signalError()']]],
-  ['signalfinished',['signalFinished',['../classthr_1_1AbstractJob.html#a8b25b293f9097e351101725c76a4b41c',1,'thr::AbstractJob::signalFinished()'],['../classthr_1_1AbstractSessionManager.html#ad059495646b7cda8b572e7ac90bd0d5f',1,'thr::AbstractSessionManager::signalFinished()'],['../classthr_1_1JobManager.html#a20a09ce6be1bf80b4803e73766281bb9',1,'thr::JobManager::signalFinished()']]],
-  ['signaljobfinished',['signalJobFinished',['../classthr_1_1JobManager.html#ab362e26f0f8dc4d27f06963a7d240535',1,'thr::JobManager']]],
-  ['signalprogress',['signalProgress',['../classthr_1_1AbstractSessionManager.html#ad3e6eed168114f940655005c99746c9a',1,'thr::AbstractSessionManager::signalProgress()'],['../classthr_1_1JobManager.html#ad5b742f008e4696d67361777499f10b3',1,'thr::JobManager::signalProgress()']]],
-  ['signalsessionfinished',['signalSessionFinished',['../classthr_1_1AbstractSessionManager.html#adc363d9cd9940d2efbb6dcfdeece0875',1,'thr::AbstractSessionManager']]],
-  ['signalstopped',['signalStopped',['../classthr_1_1AbstractJob.html#a309e65de741f15efd73e1f7be8f380e2',1,'thr::AbstractJob::signalStopped()'],['../classthr_1_1AbstractSessionManager.html#a082b03e1f1c76f58701ed82ca2e64a25',1,'thr::AbstractSessionManager::signalStopped()'],['../classthr_1_1JobManager.html#ae3cee826b3473d21c5fb533ae9bc164d',1,'thr::JobManager::signalStopped()']]],
-  ['sourcethread',['sourceThread',['../classthr_1_1AbstractJob.html#a74685f23d6f5bb01fdf688f79cf3386f',1,'thr::AbstractJob']]],
-  ['spaused',['sPaused',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989da4173db9ff4d8ed561915a54d262fd4b9',1,'thr::AbstractSessionManager']]],
-  ['srunning',['sRunning',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989dac652e60126ae7a5f132307e7d1f5cc69',1,'thr::AbstractSessionManager']]],
-  ['sstopped',['sStopped',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989daa4d58c3bf6baa14366b26662574138c7',1,'thr::AbstractSessionManager']]],
-  ['start',['start',['../classthr_1_1AbstractSessionManager.html#a3386dd984541ac0a25ae55d494267d53',1,'thr::AbstractSessionManager::start()'],['../classthr_1_1JobManager.html#a378391522f438bd10a392702a97f5f26',1,'thr::JobManager::start()'],['../classthr_1_1Thread.html#a66b5b2fd978ae02ea339771fcbd537e2',1,'thr::Thread::start()']]],
-  ['startnextsession',['startNextSession',['../classthr_1_1AbstractSessionManager.html#ac63d6b301f5f0a7a40ccce33460348ef',1,'thr::AbstractSessionManager']]],
-  ['status',['Status',['../classthr_1_1AbstractSessionManager.html#a15402c8db16bc9aca705207902e1989d',1,'thr::AbstractSessionManager']]],
-  ['stop',['stop',['../classthr_1_1AbstractJob.html#abcf7c6b7b5667d6ed644ccf0b9d23528',1,'thr::AbstractJob::stop()'],['../classthr_1_1AbstractSessionManager.html#a7365a967adbbec1ac298987cdc5987b7',1,'thr::AbstractSessionManager::stop()'],['../classthr_1_1JobManager.html#a0204606508155231dad483b876633c16',1,'thr::JobManager::stop()']]]
+  ['process',['process',['../classthr_1_1AbstractJob.html#a655fd4ce23fd2acadb0807e505379eda',1,'thr::AbstractJob::process()'],['../classthr_1_1JobQueue.html#ac712942c115ed492f46cc0d9e4809fc5',1,'thr::JobQueue::process()']]],
+  ['progress',['progress',['../classthr_1_1AbstractJob.html#abc93adb3d8182aaf5e462ea6f2235bba',1,'thr::AbstractJob::progress()'],['../classthr_1_1JobQueue.html#acb34f3cad7218a058159cfb24453dad7',1,'thr::JobQueue::progress()']]]
 ];

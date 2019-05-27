@@ -1,25 +1,4 @@
 var searchData=
 [
-  ['m_5fbfinished',['m_bFinished',['../classthr_1_1AbstractJob.html#ac7bdd5c4e0c34165a74dbced1cc50573',1,'thr::AbstractJob']]],
-  ['m_5fbstop',['m_bStop',['../classthr_1_1AbstractJob.html#a99dd92904cb0192084bc65b4f92a950e',1,'thr::AbstractJob']]],
-  ['m_5feerror',['m_eError',['../classthr_1_1JobManager.html#a2e5708ccaba2ac7c61e4f421baf38085',1,'thr::JobManager']]],
-  ['m_5festatus',['m_eStatus',['../classthr_1_1AbstractSessionManager.html#a37ac19e768b71505ba4e8b08acae1af7',1,'thr::AbstractSessionManager::m_eStatus()'],['../classthr_1_1JobManager.html#a63fb29076efb9e556be4507995b11384',1,'thr::JobManager::m_eStatus()']]],
-  ['m_5fiallowederrors',['m_iAllowedErrors',['../classthr_1_1JobManager.html#a5e803b7ea823ecc5db1252301d994909',1,'thr::JobManager']]],
-  ['m_5ficurrent',['m_iCurrent',['../classthr_1_1JobQueue.html#a3eefec6d26b949723ae693750e5603ea',1,'thr::JobQueue']]],
-  ['m_5fierrors',['m_iErrors',['../classthr_1_1JobManager.html#a60e90a6b2f3d5c0dcf56e00f69b95d30',1,'thr::JobManager']]],
-  ['m_5fifinished',['m_iFinished',['../classthr_1_1AbstractSessionManager.html#ad322ccab4a337ef2a1260f39e32c9fa0',1,'thr::AbstractSessionManager::m_iFinished()'],['../classthr_1_1JobManager.html#af79907d25eb3c8db79b3b557a412ba0a',1,'thr::JobManager::m_iFinished()']]],
-  ['m_5firunning',['m_iRunning',['../classthr_1_1JobManager.html#a6eb52843f5db7c8e32e12a908d77f822',1,'thr::JobManager']]],
-  ['m_5fisessionindex',['m_iSessionIndex',['../classthr_1_1AbstractSessionManager.html#a64d06bac6601aa9d7cea52c506c5b909',1,'thr::AbstractSessionManager']]],
-  ['m_5fisessiontimeout',['m_iSessionTimeout',['../classthr_1_1AbstractSessionManager.html#a4eb711a3dff5634a1eec75732636ebc2',1,'thr::AbstractSessionManager']]],
-  ['m_5fistarted',['m_iStarted',['../classthr_1_1JobManager.html#a51db7ee3def68712e855c7814e981563',1,'thr::JobManager']]],
-  ['m_5fjm',['m_jm',['../classthr_1_1AbstractSessionManager.html#a903f0824ed4e0a78f50e0c295c3ba8c9',1,'thr::AbstractSessionManager']]],
-  ['m_5fmutex',['m_mutex',['../classthr_1_1JobManager.html#a8454e3160f35870b16b47b6ffc072a68',1,'thr::JobManager::m_mutex()'],['../classthr_1_1JobQueue.html#a842996bc0d49961b1ba8572a07046155',1,'thr::JobQueue::m_mutex()']]],
-  ['m_5fqsname',['m_qsName',['../classthr_1_1AbstractJob.html#a8e13b478efd11deb164d502fa2cffc5f',1,'thr::AbstractJob']]],
-  ['m_5fquidle',['m_quIdle',['../classthr_1_1JobManager.html#aa58561cdaebfc6027fbd2f1217e5b71d',1,'thr::JobManager']]],
-  ['m_5fquwaiting',['m_quWaiting',['../classthr_1_1JobManager.html#a2c756e9b412bc365f4a792a6389bc963',1,'thr::JobManager']]],
-  ['m_5ftimer',['m_timer',['../classthr_1_1JobManager.html#a510b5ca4aac05dd008f9e951739bd8b2',1,'thr::JobManager']]],
-  ['m_5fvjobs',['m_vJobs',['../classthr_1_1JobQueue.html#a0383bc10ae11b95cc1bec550940eeba1',1,'thr::JobQueue']]],
-  ['m_5fvspdependency',['m_vspDependency',['../classthr_1_1AbstractJob.html#ae00fab2c3d09e00f27e70f5b7e87bd28',1,'thr::AbstractJob']]],
-  ['m_5fvspjobs',['m_vspJobs',['../classthr_1_1JobManager.html#af803fc514c8b1d1e64a060fe6b07a420',1,'thr::JobManager']]],
-  ['m_5fvthreads',['m_vThreads',['../classthr_1_1JobManager.html#a1ba49580692dbd03bf2ac1ff1e240712',1,'thr::JobManager']]]
+  ['data',['data',['../structqt__meta__stringdata__thr____AbstractJob__t.html#a5d8646ebe112fea2a681c807cc2383e5',1,'qt_meta_stringdata_thr__AbstractJob_t::data()'],['../structqt__meta__stringdata__thr____AbstractSessionManager__t.html#a2a793dff5f923a9d5f73fdbce402afcd',1,'qt_meta_stringdata_thr__AbstractSessionManager_t::data()'],['../structqt__meta__stringdata__thr____JobManager__t.html#a624ba3e66b06f780ae3c2eee88f26e80',1,'qt_meta_stringdata_thr__JobManager_t::data()'],['../structqt__meta__stringdata__thr____JobQueue__t.html#adae2cd19c04e2fa3f9222445c5b08e25',1,'qt_meta_stringdata_thr__JobQueue_t::data()'],['../structqt__meta__stringdata__thr____Thread__t.html#a09ad55c2a5da7c9b50af11be2b1a9b3e',1,'qt_meta_stringdata_thr__Thread_t::data()']]]
 ];

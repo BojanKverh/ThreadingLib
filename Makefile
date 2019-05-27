@@ -22,8 +22,7 @@ endef
 all:
 	$(call genmake)
 	$(call submake, $@)
-	cd doc
-	doxygen res/Doxyfile
+	doxygen doc/res/Doxyfile
 	
 clean:
 	$(call submake, $@)
