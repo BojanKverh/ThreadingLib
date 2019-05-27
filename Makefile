@@ -22,7 +22,6 @@ endef
 all:
 	$(call genmake)
 	$(call submake, $@)
-	doxygen doc/res/Doxyfile
 	
 clean:
 	$(call submake, $@)
@@ -31,4 +30,3 @@ clean:
 distclean:
 	$(call submake, $@)
 	$(call cleanImages)
-

@@ -1,0 +1,11 @@
+<map id="src/abstractjob.h" name="src/abstractjob.h">
+<area shape="rect" id="node2" href="$abstractjob_8cpp.html" title="src/abstractjob.cpp" alt="" coords="63,80,196,107"/>
+<area shape="rect" id="node3" href="$jobmanager_8h.html" title="src/jobmanager.h" alt="" coords="144,155,267,181"/>
+<area shape="rect" id="node7" href="$thread_8h.html" title="src/thread.h" alt="" coords="271,80,361,107"/>
+<area shape="rect" id="node9" href="$jobqueue_8h.html" title="src/jobqueue.h" alt="" coords="421,80,528,107"/>
+<area shape="rect" id="node4" href="$abstractsessionmanager_8h.html" title="src/abstractsessionmanager.h" alt="" coords="12,229,209,256"/>
+<area shape="rect" id="node6" href="$jobmanager_8cpp.html" title="src/jobmanager.cpp" alt="" coords="233,229,369,256"/>
+<area shape="rect" id="node5" href="$abstractsessionmanager_8cpp.html" title="src/abstractsessionmanager.cpp" alt="" coords="5,304,216,331"/>
+<area shape="rect" id="node8" href="$thread_8cpp.html" title="src/thread.cpp" alt="" coords="291,155,397,181"/>
+<area shape="rect" id="node10" href="$jobqueue_8cpp.html" title="src/jobqueue.cpp" alt="" coords="421,155,542,181"/>
+</map>

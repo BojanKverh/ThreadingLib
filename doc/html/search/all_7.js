@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['initnextsession',['initNextSession',['../classthr_1_1AbstractSessionManager.html#aa7d15ae150254abbaee7fd23fed38cd2',1,'thr::AbstractSessionManager']]],
-  ['iserror',['isError',['../classthr_1_1AbstractJob.html#a0f4553e899ff6c043accf0ecfb775e83',1,'thr::AbstractJob']]],
-  ['isfinished',['isFinished',['../classthr_1_1AbstractJob.html#a03646ccc2add21868490c19d0703b5ab',1,'thr::AbstractJob::isFinished()'],['../classthr_1_1AbstractSessionManager.html#acafb59f470ce931485ea24c0da128d10',1,'thr::AbstractSessionManager::isFinished()'],['../classthr_1_1JobManager.html#a24e9c83efbe4c1f4c44b959cd96f1f95',1,'thr::JobManager::isFinished()']]],
-  ['isidle',['isIdle',['../classthr_1_1JobManager.html#a268c958efc7b72b89306153af7ae8d31',1,'thr::JobManager']]],
-  ['isreportjobfinish',['isReportJobFinish',['../classthr_1_1JobManager.html#a6287f0196f3a6716e0465fbf7bb5c60e',1,'thr::JobManager']]],
-  ['isrunning',['isRunning',['../classthr_1_1AbstractSessionManager.html#ac7a2696eadb81ce2c7fcb8c36ce58bd1',1,'thr::AbstractSessionManager::isRunning()'],['../classthr_1_1JobManager.html#a1f56c0cb986ce173e85dc05949daf2a2',1,'thr::JobManager::isRunning()']]],
-  ['isspawned',['isSpawned',['../classthr_1_1AbstractJob.html#ab06dc55b20f7513704189704d12fc3fc',1,'thr::AbstractJob']]],
-  ['isstopped',['isStopped',['../classthr_1_1AbstractJob.html#a5a2e7a608b2cddc28461f3881eb4006e',1,'thr::AbstractJob::isStopped()'],['../classthr_1_1JobManager.html#ac64138e3b25f227f1fd25b85e91eb11b',1,'thr::JobManager::isStopped()']]]
+  ['jmecouldnotstart',['jmeCouldNotStart',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208a00d74d45da60444ed452d2349f27cbcb',1,'thr']]],
+  ['jmeimplementationerror',['jmeImplementationError',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208ad5a0539187c96d0c2cfb0fca544d7cb7',1,'thr']]],
+  ['jmenoerror',['jmeNoError',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208a9c06cc04635b374a289fb2c9c66d8e8f',1,'thr']]],
+  ['jmenojobready',['jmeNoJobReady',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208a41b29d835e33894f9cd1aefa2c2a40be',1,'thr']]],
+  ['jmetoomanyerrors',['jmeTooManyErrors',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208ae00f172f34aeec280463ef1616595ead',1,'thr']]],
+  ['jmeuserdefined',['jmeUserDefined',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208aeeab7ac20b45d4f70e8773e6e3bbe206',1,'thr']]],
+  ['job',['job',['../classthr_1_1JobManager.html#ad24ccaa9424b9a0768b1baaf7aa6c0a6',1,'thr::JobManager']]],
+  ['jobcount',['jobCount',['../classthr_1_1JobManager.html#ade32a964df730eedfccf7a03d8e23b89',1,'thr::JobManager::jobCount()'],['../classthr_1_1JobQueue.html#a3505475b91e2d8f9e200259411384f38',1,'thr::JobQueue::jobCount()']]],
+  ['jobindex',['jobIndex',['../classthr_1_1Thread.html#a2cf17d3099206aba9ad28db929c907b7',1,'thr::Thread']]],
+  ['jobmanager',['JobManager',['../classthr_1_1JobManager.html',1,'thr::JobManager'],['../classthr_1_1AbstractJob.html#a22d5e96819bc7c0bff8d135a21e67b42',1,'thr::AbstractJob::JobManager()'],['../classthr_1_1JobManager.html#a135b2c0b4c93f178f408ee9248b559cb',1,'thr::JobManager::JobManager()']]],
+  ['jobmanager_2ecpp',['jobmanager.cpp',['../jobmanager_8cpp.html',1,'']]],
+  ['jobmanager_2eh',['jobmanager.h',['../jobmanager_8h.html',1,'']]],
+  ['jobmanagererror',['JobManagerError',['../namespacethr.html#a2ecfd7832e8015ea2f7b1f4621915208',1,'thr']]],
+  ['jobqueue',['JobQueue',['../classthr_1_1JobQueue.html',1,'thr::JobQueue'],['../classthr_1_1AbstractJob.html#a985bc4987406b77184a47321168d59bb',1,'thr::AbstractJob::JobQueue()'],['../classthr_1_1JobQueue.html#a23ef0350ca3898d3c23a6bce0b8632fb',1,'thr::JobQueue::JobQueue()']]],
+  ['jobqueue_2ecpp',['jobqueue.cpp',['../jobqueue_8cpp.html',1,'']]],
+  ['jobqueue_2eh',['jobqueue.h',['../jobqueue_8h.html',1,'']]]
 ];

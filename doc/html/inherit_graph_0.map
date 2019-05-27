@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classthr_1_1AbstractJob.html" title="The AbstractJob class. This is base class for all jobs, which are supposed to be executed in by a Job..." alt="" coords="162,5,277,32"/>
+<area shape="rect" id="node4" href="$classthr_1_1AbstractSessionManager.html" title="The AbstractSessionManager class. This is an abstract base class for session manager classes..." alt="" coords="124,56,315,83"/>
+<area shape="rect" id="node5" href="$classthr_1_1JobManager.html" title="The JobManager class. This class is used to process several jobs at once, each one in a separate thre..." alt="" coords="161,107,277,133"/>
+<area shape="rect" id="node3" href="$classthr_1_1JobQueue.html" title="The JobQueue class. This class can be used to process a number of jobs, which have to be executed seq..." alt="" coords="363,5,467,32"/>
+</map>

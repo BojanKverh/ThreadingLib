@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['abstractjob',['AbstractJob',['../classthr_1_1AbstractJob.html',1,'thr::AbstractJob'],['../classthr_1_1AbstractJob.html#a18ddc1128c1dbd84e99aae8a80e46469',1,'thr::AbstractJob::AbstractJob()']]],
-  ['abstractjob_2ecpp',['abstractjob.cpp',['../abstractjob_8cpp.html',1,'']]],
-  ['abstractjob_2eh',['abstractjob.h',['../abstractjob_8h.html',1,'']]],
-  ['abstractsessionmanager',['AbstractSessionManager',['../classthr_1_1AbstractSessionManager.html',1,'thr::AbstractSessionManager'],['../classthr_1_1AbstractSessionManager.html#a7582518ee80ebfc697d2f0cd357d71e3',1,'thr::AbstractSessionManager::AbstractSessionManager()']]],
-  ['abstractsessionmanager_2ecpp',['abstractsessionmanager.cpp',['../abstractsessionmanager_8cpp.html',1,'']]],
-  ['abstractsessionmanager_2eh',['abstractsessionmanager.h',['../abstractsessionmanager_8h.html',1,'']]],
-  ['adddependency',['addDependency',['../classthr_1_1AbstractJob.html#a3732a5b027d42171c11b36ff804603c0',1,'thr::AbstractJob']]],
-  ['addthreads',['addThreads',['../classthr_1_1AbstractSessionManager.html#a06c7912012f8019b88ac5de4ccb5fd01',1,'thr::AbstractSessionManager::addThreads()'],['../classthr_1_1JobManager.html#a97cbe82b053ab0911e75f17e01b07808',1,'thr::JobManager::addThreads()']]],
-  ['allowederrors',['allowedErrors',['../classthr_1_1AbstractSessionManager.html#acfbdf3b9344002b2bb2d71629ebfcc94',1,'thr::AbstractSessionManager::allowedErrors()'],['../classthr_1_1JobManager.html#ae8d5c241c309abdbf9e332f05159f79d',1,'thr::JobManager::allowedErrors()']]],
-  ['append',['append',['../classthr_1_1JobQueue.html#ac7f712a839519aca0d7aa914a0cfb2b8',1,'thr::JobQueue']]],
-  ['appendjob',['appendJob',['../classthr_1_1AbstractSessionManager.html#a88b018fd9a5683be1bd15e34fd851e4a',1,'thr::AbstractSessionManager::appendJob()'],['../classthr_1_1JobManager.html#ab1e057af36057c39f47c0e1a4f31bcce',1,'thr::JobManager::appendJob()']]]
+  ['canstart',['canStart',['../classthr_1_1AbstractJob.html#a5698b9cf2225ecf0ec1ee14ec06802e6',1,'thr::AbstractJob']]],
+  ['check_5fjob_5fstop',['CHECK_JOB_STOP',['../abstractjob_8h.html#a0b1788b145fd0dbef10f9cddb3e8cd63',1,'abstractjob.h']]],
+  ['cleanup',['cleanup',['../classthr_1_1AbstractJob.html#a823bd033e0bb5459d6eae1d6e5c5cfa9',1,'thr::AbstractJob']]],
+  ['clear',['clear',['../classthr_1_1JobManager.html#a2a39aa26c3bd40ec45b9c53dc3db2651',1,'thr::JobManager::clear()'],['../classthr_1_1JobQueue.html#ae510651f98d5ba80706248042569eae4',1,'thr::JobQueue::clear()']]],
+  ['currentsession',['currentSession',['../classthr_1_1AbstractSessionManager.html#a93b7a1eeed37717b62ef7ca0746571d9',1,'thr::AbstractSessionManager']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['linux',['linux',['../moc__predefs_8h.html#aa092b0d4c1d4d4407b97024f6cb2820c',1,'moc_predefs.h']]]
+  ['name',['name',['../classthr_1_1AbstractJob.html#adee7fad4236e5ff04441ad3841daf99a',1,'thr::AbstractJob']]],
+  ['nextspawnedjob',['nextSpawnedJob',['../classthr_1_1AbstractJob.html#aaf1da9edb5e38fcd939cfddce8e3b5c8',1,'thr::AbstractJob']]]
 ];
