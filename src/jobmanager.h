@@ -425,11 +425,11 @@ protected:
     /**
      * @brief m_vThreads. Vector of threads
      */
-    QVector<Thread*> m_vThreads;
+    QVector<QSharedPointer<Thread> > m_vThreads;
     /**
      * @brief m_quIdle. Queue of idle threads
      */
-    QQueue<Thread*> m_quIdle;
+    QQueue<QSharedPointer<Thread> > m_quIdle;
     /**
      * @brief m_vspJobs. Vector of shared pointers to jobs to process
      */

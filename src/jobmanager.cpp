@@ -35,8 +35,6 @@ JobManager::~JobManager()
 {
     clear();
     QMutexLocker locker(&m_mutex);
-    for (int i = 0; i < m_vThreads.count(); ++i)
-        delete m_vThreads[i];
     m_vThreads.clear();
 }
 
@@ -93,9 +91,9 @@ void JobManager::addThreads(int iT)
 {
     QMutexLocker locker(&m_mutex);
     for (int i = 0; i < iT; ++i) {
-        Thread* pThr = new Thread;
-        m_vThreads.append(pThr);
-        m_quIdle.enqueue(pThr);
+        auto spThr = QSharedPointer<Thread>(new Thread);
+        m_vThreads.append(spThr);
+        m_quIdle.enqueue(spThr);
         if (isRunning() == true) {
             startNext();
         }
@@ -179,8 +177,14 @@ void JobManager::handleJobFinished()
 
     ++m_iFinished;
     Thread* pThr = dynamic_cast<Thread*>(sender());
-    assert(pThr != 0);
-    int iInd = pThr->jobIndex();
+    QSharedPointer<Thread> spThr;
+    for (int i = 0; i < m_vThreads.count(); ++i) {
+        if (m_vThreads[i].data() == pThr) {
+            spThr = m_vThreads[i];
+        }
+    }
+    assert(spThr.data() != 0);
+    int iInd = spThr->jobIndex();
 
     int iCnt = 0;
     AbstractJob* pJob = m_vspJobs[iInd]->nextSpawnedJob();
@@ -194,7 +198,7 @@ void JobManager::handleJobFinished()
 
     m_vspJobs[iInd]->cleanup();
 
-    m_quIdle.enqueue(pThr);
+    m_quIdle.enqueue(spThr);
     --m_iRunning;
 
     if (m_vspJobs[iInd]->isError() == true) {
@@ -266,8 +270,8 @@ void JobManager::checkNext()
 
 void JobManager::startNext()
 {
-    Thread* pThr = m_quIdle.dequeue();
-    pThr->disconnect();
+    auto spThr = m_quIdle.dequeue();
+    spThr->disconnect();
     if (m_iStarted < m_vspJobs.count()) {
         for (int i = 0; i < m_quWaiting.count(); ++i) {
             if (m_vspJobs[m_quWaiting.front()]->canStart() == true) {
@@ -278,10 +282,10 @@ void JobManager::startNext()
                 //connect(m_vJobs[iCurrent], SIGNAL(signalStopped()), pThr, SLOT(quit()));
                 //connect(m_vJobs[iCurrent], SIGNAL(signalError()), pThr, SLOT(quit()));
                 //connect(pThr, SIGNAL(finished()), this, SLOT(handleJobFinished()));
-                connect(pThr, &QThread::finished, this, &JobManager::handleJobFinished);
+                connect(spThr.data(), &QThread::finished, this, &JobManager::handleJobFinished);
                 //m_vIndex[iInd] = iCurrent;
                 //pThr->start();
-                pThr->start(iCurrent, m_vspJobs[iCurrent]);
+                spThr->start(iCurrent, m_vspJobs[iCurrent]);
                 ++m_iStarted;
                 ++m_iRunning;
                 return;
@@ -295,24 +299,21 @@ void JobManager::startNext()
             m_eError = jmeNoJobReady;
         }
     }
-    m_quIdle.enqueue(pThr);
+    m_quIdle.enqueue(spThr);
 }
 
 //-----------------------------------------------------------------------------
 
 void JobManager::allocateThreads(int iT)
 {
-    for (int i = 0; i < m_vThreads.count(); ++i) {
-        delete m_vThreads[i];
-    }
     m_vThreads.clear();
     m_quIdle.clear();
     //m_vIndex.clear();
 
     for (int i = 0; i < iT; ++i) {
-        Thread* pThr = new Thread;
-        m_vThreads.append(pThr);
-        m_quIdle.enqueue(pThr);
+        auto spThr = QSharedPointer<Thread>(new Thread);
+        m_vThreads.append(spThr);
+        m_quIdle.enqueue(spThr);
        // m_vIndex.append(-1);
     }
 }
